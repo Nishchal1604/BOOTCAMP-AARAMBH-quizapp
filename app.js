@@ -72,11 +72,11 @@ const quizData = [{
     correct: "b",
 },
 {
-    question: "What does CSS stands for?",
-    a: "Hypertext Markup Language",
-    b: "Cascading Style Sheet",
-    c: "Jason Object Notation",
-    d: "Helicopters Terminals Motorboats Lamborginis",
+    question: "EXIM Bank has extended a line of credit of USD 500 million to which neighbouring country?",
+    a: "Nepal",
+    b: "Sri Lanka",
+    c: "Bangladesh",
+    d: "Myanmar",
     correct: "b",
 }
 ];
@@ -142,7 +142,7 @@ const quizEnd = () => {
 // console.log(document.getElementsByClassName("container"));
 document.getElementsByClassName("container")[0].innerHTML = `
     <div class="col">
-        <h3 class="w-100"> Hii, you've scored ${correct} / ${total} </h3>
+        <h3 class="w-100"> Your scored ${correct} / ${total} </h3>
     </div>
 `
 }
